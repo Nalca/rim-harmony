@@ -1,0 +1,87 @@
+{
+  "generic": {
+    "addNewFolder": "Add a new Folder",
+    "addOneElement": "Add an element",
+    "byDefault": "By default",
+    "changeFolder": "Change folder",
+    "fold": "Fold",
+    "harmonyVersion": "Harmony version",
+    "removeElement": "Remove element",
+    "removeFolder": "Remove folder",
+    "unfold": "Unfold"
+  },
+  "mainView": {
+    "link-configuration": "Configuration",
+    "link-mods": "Mods"
+  },
+  "rimmod": {
+    "rightMenu": {
+      "filterByName": "Filter by name",
+      "listTypeTriage": {
+        "author": "Author",
+        "harmonyVersion+name": "Harmony Version, Name",
+        "name": "Name"
+      },
+      "filterByHarmonyIncluded": "Show only mods including their own Harmony version",
+      "filterByDifferentVersion": "Show only mods including a different Harmony version",
+      "filterByUsedModEnabled": "Show only currently used mods"
+    },
+    "infoScreen": {
+      "moreRecentHarmonyVersion": "A more recent Harmony version has been detected !"
+    },
+    "detailMod": {
+      "urlModPage": "Link to mod's page",
+      "urlWorkshop": "Link to mod workshop page",
+      "urlFolder": "Link to mod folder",
+      "pathToDLL": "Path to Harmony DLL",
+      "pathToDLLs": "Path to Harmony DLL",
+      "version": {
+        "current": "Current version",
+        "multiple": "Multiples versions detected",
+        "newer": "Newer version",
+        "older": "Older version",
+        "noLocal": "No local Harmony version detected",
+        "single": "Local Harmony version",
+        "plural": "Local Harmony versions"
+      }
+    }
+  },
+  "config": {
+    "title": "Configuration",
+    "HARMONY_VERSION": {
+      "description": "Harmony version considered up to date"
+    },
+    "PATH_TO_CHECK": {
+      "label": "Rimworld mod folders"
+    },
+    "MODLIST_PATH": {
+      "label": "Path to the list of enabled mods"
+    },
+    "APP_LANGUAGE": {
+      "label": "Application language"
+    },
+    "minorOptions": {
+      "title": "Minor options",
+      "descriptionL1": "On filtering sub-folders when looking for Harmony DLLs",
+      "descriptionL2": "Case is respected",
+      "PATH_SEQUENCE_TO_INCLUDE": {
+        "label": "Included paths",
+        "description": "Paths to be included in the result"
+      },
+      "PATH_SEQUENCE_TO_IGNORE": {
+        "label": "Excluded paths",
+        "description": "Paths to exclude from the result"
+      }
+    },
+    "saveChanges": "Save changes",
+    "cancelChanges": "Cancel changes",
+    "goBackToModList": "Go back to mods list",
+    "modal": {
+      "currentlySaving": "Saving the current configuration",
+      "cancellingModifications": {
+        "title": "Cancel current modifications ?",
+        "desc": "The following changes will be reverted"
+      }
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "generic": {
+    "addNewFolder": "Ajouter un nouveau dossier",
+    "addOneElement": "Ajouter un élément",
+    "byDefault": "Par défaut",
+    "changeFolder": "Changer le dossier",
+    "fold": "Replier",
+    "harmonyVersion": "Version Harmony",
+    "removeElement": "Enlever l'élément",
+    "removeFolder": "Enlever le dossier",
+    "unfold": "Déplier"
+  },
+  "mainView": {
+    "link-configuration": "Configuration",
+    "link-mods": "Mods"
+  },
+  "rimmod": {
+    "rightMenu": {
+      "filterByName": "Filtrer par nom",
+      "listTypeTriage": {
+        "author": "Auteur",
+        "harmonyVersion+name": "Version Harmony, Nom",
+        "name": "Nom"
+      },
+      "filterByHarmonyIncluded": "Afficher uniquement les mods incluant une version locale d'Harmony",
+      "filterByDifferentVersion": "Afficher uniquement les mods incluant une version différente ",
+      "filterByUsedModEnabled": "Afficher uniquement les mods actuellement utilisés"
+    },
+    "infoScreen": {
+      "moreRecentHarmonyVersion": "Une version plus récente d'Harmony à été détectée !"
+    },
+    "detailMod": {
+      "urlModPage": "Lien vers la page du mod",
+      "urlWorkshop": "Lien vers la page du workshop du mod",
+      "urlFolder": "Lien vers le dossier du mod",
+      "pathToDLL": "Chemin vers la DLL Harmony",
+      "pathToDLLs": "Chemin vers les DLLs Harmony",
+      "version": {
+        "current": "Version actuelle",
+        "multiple": "Multiples versions détectée",
+        "newer": "Version plus récente",
+        "older": "Ancienne version",
+        "noLocal": "Aucune version locale d'Harmony détectée",
+        "single": "Version locale d'Harmony",
+        "plural": "Version locales d'Harmony"
+      }
+    }
+  },
+  "config": {
+    "title": "Configuration",
+    "HARMONY_VERSION": {
+      "description": "La version d'Harmony considérée comme à jour"
+    },
+    "PATH_TO_CHECK": {
+      "label": "Dossiers contenant les mods rimworld"
+    },
+    "MODLIST_PATH": {
+      "label": "Chemin vers la liste des mods actifs"
+    },
+    "APP_LANGUAGE": {
+      "label": "La langue de l'application"
+    },
+    "minorOptions": {
+      "title": "Options mineures",
+      "descriptionL1": "Sur le filtrage des sous-dossiers lors de la recherche des DLLs Harmony.",
+      "descriptionL2": "La casse est respectée.",
+      "PATH_SEQUENCE_TO_INCLUDE": {
+        "label": "Chemins inclus",
+        "description": "Les chemins devant être inclus dans le résultat"
+      },
+      "PATH_SEQUENCE_TO_IGNORE": {
+        "label": "Chemins exclus",
+        "description": "Les chemins à exclure du resultat"
+      }
+    },
+    "saveChanges": "Sauvegarder les changements",
+    "cancelChanges": "Annuler les changements",
+    "goBackToModList": "Retourner sur la liste des mods",
+    "modal": {
+      "currentlySaving": "Sauvegarde de la configuration en cours",
+      "cancellingModifications": {
+        "title": "Annuler les modifications ?",
+        "desc": "Les modifications suivantes seront annulées"
+      }
+    }
+  }
+}
